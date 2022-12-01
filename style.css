@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    background: #F9FAFE;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    box-shadow: 1px 1px 10px 5px rgba(174, 170, 170, 0.3);
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.login-box{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.social{
+    text-align: center;
+}
+
+.social h1{
+    padding: 20px;
+}
+
+.social h2{
+    text-decoration-line:underline;
+    text-decoration-color: gray;
+    color: gray; 
+}
+
+.social img{
+    width: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 10px;   
+    transition: 0.3s; 
+}
+
+.social img:hover{
+    transform: translatey(-5px);
+}
+.line{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.in-line{
+    width: 5px;
+    height: 50px;
+}
+
+.in-line::after , .in-line::before{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 35%;
+    background: gray;
+}
+
+.in-line::after{
+    left: 10%;
+}
+
+.in-line::before{
+    right: 10%;
+}
+
+.or{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.login{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.login input{
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.login label{
+    margin: 5px;
+}
+
+#button{
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    background: rgb(231, 230, 230);
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#button:hover{
+    background: #d7dadd;
+}
+
+.login span{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 18%;
+}
+
+.signup{
+    position: absolute;
+    margin-left: 49%;
+    margin-top: -80%;
+}
+
+.signup img{
+    width: 400px;
+    height: 550px;
+    box-shadow: 1px 1px 50px 20px rgba(185, 223, 231, 0.4);
+}
+
+
+
+.signup a{
+    width: auto;
+    height: auto;
+    background: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.signup span{
+    color: gray;
+}
+
+.in-signup{
+    margin-top: -20%;
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    transition: 0.3s
+}
+.in-signup:hover{
+    margin-top: -21%;
+}
